@@ -1,0 +1,22 @@
+{
+    "extends": "standard",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "impliedStrict": true
+    },
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true,
+        "amd": true
+    },
+    "globals": {
+        "window": false,
+        "mp": false
+    },
+    "rules": {
+        "semi": ["error", "always"],
+        "no-unused-vars": "off"
+    }
+}

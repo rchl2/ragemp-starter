@@ -1,0 +1,37 @@
+{
+  "name": "ragemp-starter",
+  "version": "0.0.1",
+  "description": "Ready-to-go backend development starter for RAGE multiplayer.",
+  "author": "rchl2 <freshieboyz+git@gmail.com>",
+  "scripts": {
+    "watch": "nodemon --watch packages --watch client_packages --exec \"./server.exe\"",
+    "watch-server": "nodemon --watch packages --exec \"./server.exe\"",
+    "watch-client": "nodemon --watch client_packages --exec \"./server.exe\""
+  },
+  "devDependencies": {
+    "dotenv": "6.0.0",
+    "eslint": "5.3.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-node": "7.0.1",
+    "eslint-plugin-promise": "3.8.0",
+    "eslint-plugin-standard": "3.1.0",
+    "nodemon": "1.18.3",
+    "sequelize-cli": "4.0.0"
+  },
+  "dependencies": {
+    "glob": "^7.1.2",
+    "lodash": "4.17.10",
+    "log4js": "3.0.5",
+    "mysql2": "1.6.1",
+    "sequelize": "4.38.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchl2/ragemp-starter"
+  },
+  "bugs": {
+    "url": "https://github.com/rchl2/ragemp-starter/issues"
+  }
+}
