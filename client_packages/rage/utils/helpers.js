@@ -2,6 +2,7 @@
 
 /**
  * Hide HUD elements from array.
+ * HUD components ID: https://wiki.rage.mp/index.php?title=HUD_Components
  * @param {array} array
  */
 const hideHudElements = (elements) => {
@@ -14,6 +15,7 @@ exports.hideHudElements = hideHudElements;
 
 /**
  * Disable controls from array.
+ * Game controls ID: https://wiki.rage.mp/index.php?title=Controls
  * @param {array} array
  */
 const disableControlActions = (controls) => {
