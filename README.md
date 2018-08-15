@@ -72,9 +72,9 @@ Start your next project within seconds! This boilerplate accelerates the work yo
 
 ## What if...
 *I don't want MySQL. What about PostgreSQL/SQLite?*
-No problem. Just remove package **mysql2**, and switch to one of the following:
- - For PostgreSQL: `yarn add pg pg-hstore` or `npm install --save pg pg-hstore`
- - For SQLite `yarn add sqlite3` or `npm install --save sqlite3`
+- No problem. Just remove package **mysql2**, and switch to one of the following:
+ 	- For PostgreSQL: `yarn add pg pg-hstore` or `npm install --save pg pg-hstore`
+ 	- For SQLite `yarn add sqlite3` or `npm install --save sqlite3`
 
 *I don't like semicolons! (eslint)*
 - Edit line **semi** under rules with following code: `"semi": ["error", "never"]`
