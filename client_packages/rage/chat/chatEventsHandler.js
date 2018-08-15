@@ -9,7 +9,7 @@ mp.events.add({
 });
 
 /**
- * Cleans game chat.
+ * Clear game chat.
  */
 const clearGameChat = () => {
   mp.gui.execute('$("#chat_messages").html("")');
@@ -18,7 +18,7 @@ const clearGameChat = () => {
 exports.clearGameChat = clearGameChat;
 
 /**
- * Toggles the chat visibility.
+ * Toggles chat visibility.
  * @param {boolean} value
  */
 const toggleChat = value => {
@@ -29,7 +29,7 @@ const toggleChat = value => {
 exports.toggleChat = toggleChat;
 
 /**
- * This enables or disables the chat.
+ * This enables or disables chat.
  * @param {boolean} value
  */
 const disableChat = value => {

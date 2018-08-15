@@ -1,7 +1,7 @@
 {
   "name": "ragemp-starter",
   "version": "0.0.1",
-  "description": "Ready-to-go backend development starter for RAGE multiplayer.",
+  "description": "Ready to go backend development starter for RAGE multiplayer.",
   "author": "rchl2 <freshieboyz+git@gmail.com>",
   "scripts": {
     "watch": "nodemon --watch packages --watch client_packages --exec \"./server.exe\"",
