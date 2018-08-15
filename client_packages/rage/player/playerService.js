@@ -1,6 +1,7 @@
 const { hideHudElements } = require('./rage/utils/helpers');
 
 /**
+ * Docs about these two functions:
  * https://wiki.rage.mp/index.php?title=Player::disableVehicleRewards
  * https://wiki.rage.mp/index.php?title=Discord::update
  */

@@ -11,10 +11,7 @@ mp.events.add({
 /**
  * Clear game chat.
  */
-const clearGameChat = () => {
-  mp.gui.execute('$("#chat_messages").html("")');
-};
-
+const clearGameChat = () => mp.gui.execute('$("#chat_messages").html("")');
 exports.clearGameChat = clearGameChat;
 
 /**
