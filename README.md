@@ -10,19 +10,19 @@ Start your next project within seconds! This boilerplate accelerates the work yo
 1. Clone or download repository.
 2. Extract files to your RAGE Multiplayer server-files directory.
 3. Open bash/command prompt, switch into server directory:
-	1. Type `yarn` if you are using Yarn or `npm install` if you are using NPM.
-	2. Look at .env.example file and create your environment file, fill it with database credentials.
-	3. Setup database using Sequelize CLI - `./node_modules/.bin/sequelize db:create`.
-	4. Run migration for example table 'Vehicles' - `./node_modules/.bin/sequelize db:migrate`.
-	5. Type `yarn watch` - that's it! You are ready to develop. Any changes in files in `client_packages` or `packages` directory gonna automatically restart server! :sparkles:
+	- Type `yarn` if you are using Yarn or `npm install` if you are using NPM.
+	- Look at .env.example file and create your environment file, fill it with database credentials.
+	- Setup database using Sequelize CLI - `./node_modules/.bin/sequelize db:create`.
+	- Run migration for example table 'Vehicles' - `./node_modules/.bin/sequelize db:migrate`.
+	- Type `yarn watch` - that's it! You are ready to develop. Any changes in files in `client_packages` or `packages` directory gonna automatically restart server! :sparkles:
 
 ## What's inside?
 - **[ESLint]** with JavaScript standard style config, prepared for ES6.
-- **[dotenv]**  zero-dependency module that loads environment variables from a .env file into process.env.
-- **[nodemon]** - monitor any changes in server/client files and automtically restart the server!
-- **[sequelize]** - promise-based ORM for Node.js including CLI to easily operate on database (see commands below).
-- **[mysql2]** - fast mysql driver.
-- **[lodash]** - utility library thats deliver modularity, performance, & extras.
+- **[dotenv]** zero-dependency module that loads environment variables from a .env file into process.env.
+- **[nodemon]** monitor any changes in server/client files and automtically restart the server!
+- **[sequelize]** promise-based ORM for Node.js including CLI to easily operate on database (see commands below).
+- **[mysql2]** fast mysql driver.
+- **[lodash]** utility library thats deliver modularity, performance, & extras.
 - **[log4js]** logging library for Node.js based on original Log4js framework.
 
 ## Features
@@ -77,16 +77,13 @@ No problem. Just remove package **mysql2**, and switch to one of the following:
  - For SQLite `yarn add sqlite3` or `npm install --save sqlite3`
 
 *I don't like semicolons! (eslint)*
-I like semicolons, but if you dont - edit line **semi** under rules with following code:
- - `"semi": ["error", "never"]`
+- Edit line **semi** under rules with following code: `"semi": ["error", "never"]`
 
 *I want identation with tabs, not spaces! (eslint)*
-No worries. Add rule **indent** with following code:
- - `["error","tab"]`
+- No worries. Add rule **indent** with following code: `["error", "tab"]`
 
 *I want double quotes! (eslint)*
-Okay. Add rule **quotes** with following code:
- - `["error","double"]`
+- Add rule **quotes** with following code: `["error", "double"]`
 
 ## Need more help?
 - **[RAGE Multiplayer Wiki]** all you need to develop server.
