@@ -11,7 +11,7 @@
   "devDependencies": {
     "dotenv": "6.0.0",
     "eslint": "5.3.0",
-    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard": "11.0.0",
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-node": "7.0.1",
     "eslint-plugin-promise": "3.8.0",
@@ -20,7 +20,7 @@
     "sequelize-cli": "4.0.0"
   },
   "dependencies": {
-    "glob": "^7.1.2",
+    "glob": "7.1.2",
     "lodash": "4.17.10",
     "log4js": "3.0.5",
     "mysql2": "1.6.1",
