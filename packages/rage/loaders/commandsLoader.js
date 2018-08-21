@@ -2,7 +2,7 @@
 
 /**
  * This is only example loader for all commands from 'modules/commands' directory.
- * You can expand this with Regexp for example and scan for files with 'command' word inside directories.
+ * For example you can expand this with Regexp and scan for files with 'command' word inside directories.
  * There is a lot of ways to do this.
  */
 const fs = require('fs');

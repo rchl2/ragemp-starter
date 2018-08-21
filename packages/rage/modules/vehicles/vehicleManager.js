@@ -24,10 +24,7 @@ function create (player, model) {
 exports.create = create;
 
 function spawn (vehicle) {
-  // We can't spawn vehicle on world when we dont have position.
-  // If you just used seeder and got this error, you should go ingame and create vehicle there.
-  // Seeder is only example, what you can do to seed fake data (you should look at faker package too).
-  if (vehicle.position === null) {
+  if (vehicle.position === null) { // We can't spawn vehicle on world when we dont have position.
     return logger('vehicle', `Vehicle position is null (vehicleId: ${vehicle.id})!`, 'error');
   }
 

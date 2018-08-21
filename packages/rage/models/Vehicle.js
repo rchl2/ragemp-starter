@@ -8,9 +8,9 @@ module.exports = (sequelize, DataTypes) => {
     primaryColor: DataTypes.STRING,
     secondaryColor: DataTypes.STRING
   }, {});
-  Vehicle.associate = (models) => {
-    // associations can be defined here
-  };
+
+  // Docs about associations: http://docs.sequelizejs.com/class/lib/associations/base.js~Association.html
+  Vehicle.associate = (models) => {};
 
   return Vehicle;
 };

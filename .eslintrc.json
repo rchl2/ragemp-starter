@@ -16,7 +16,6 @@
         "mp": false
     },
     "rules": {
-        "semi": ["error", "always"],
-        "no-unused-vars": "off"
+        "semi": ["error", "always"]
     }
 }
