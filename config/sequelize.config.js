@@ -1,4 +1,4 @@
-const dotenv = require('dotenv').config();
+const dotenv = require('dotenv').config(); // eslint-disable-line no-unused-vars
 
 module.exports = {
   development: {
@@ -13,6 +13,17 @@ module.exports = {
     }
   },
   production: {
+    database: process.env.DATABASE_NAME,
+    username: process.env.DATABASE_USER,
+    password: process.env.DATABASE_PASSWORD,
+    host: process.env.DATABASE_HOST,
+    port: process.env.DATABASE_PORT,
+    dialect: 'mysql',
+    define: {
+      underscored: true
+    }
+  },
+  testing: {
     database: process.env.DATABASE_NAME,
     username: process.env.DATABASE_USER,
     password: process.env.DATABASE_PASSWORD,
