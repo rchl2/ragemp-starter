@@ -19,7 +19,7 @@ Start your next project within seconds! This boilerplate accelerates the work yo
 ## What's inside?
 - **[ESLint]** with JavaScript standard style config, prepared for ES6.
 - **[dotenv]** zero-dependency module that loads environment variables from a .env file into process.env.
-- **[nodemon]** monitor any changes in server/client files and automatically restart the server!
+- **[nodemon]** monitor any changes in server/client files and automtically restart the server!
 - **[sequelize]** promise-based ORM for Node.js including CLI to easily operate on database (see commands below).
 - **[mysql2]** fast mysql driver.
 - **[lodash]** utility library thats deliver modularity, performance, & extras.
@@ -72,7 +72,7 @@ Start your next project within seconds! This boilerplate accelerates the work yo
 
 ## What if...
 *I don't want MySQL. What about PostgreSQL/SQLite?*
-- No problem. Set dialect to new (sqlite/postgres) in database.js, remove package **mysql2**, and switch to one of the following:
+- No problem. Just remove package **mysql2**, and switch to one of the following:
  	- For PostgreSQL: `yarn add pg pg-hstore` or `npm install --save pg pg-hstore`
  	- For SQLite `yarn add sqlite3` or `npm install --save sqlite3`
 
