@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "glob": "7.1.2",
-    "lodash": ">=4.17.11",
+    "lodash": "4.17.12",
     "log4js": "3.0.5",
     "mysql2": "1.6.1",
     "sequelize": "5.15.1"
