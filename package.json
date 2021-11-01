@@ -20,7 +20,7 @@
     "sequelize-cli": "4.0.0"
   },
   "dependencies": {
-    "glob": "7.1.2",
+    "glob": "7.2.0",
     "lodash": "4.17.21",
     "log4js": "3.0.5",
     "mysql2": "1.6.1",
