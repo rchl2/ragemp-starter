@@ -24,7 +24,7 @@
     "lodash": "4.17.21",
     "log4js": "6.4.0",
     "mysql2": "1.6.1",
-    "sequelize": "5.15.1"
+    "sequelize": "6.28.2"
   },
   "license": "MIT",
   "repository": {
